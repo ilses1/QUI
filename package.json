@@ -10,7 +10,7 @@
     ".": {
       "import": "./dist/qyxui.js",
       "require": "./dist/qyxui.umd.cjs"
-    }
+    } 
   },
   "files": [
     "dist/*"
