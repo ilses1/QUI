@@ -19,6 +19,11 @@ export default [
         name: "tree",
         component: () => import("@/components/q-tree/doc/doc.md"),
       },
+      {
+        path: "/select",
+        name: "select",
+        component: () => import("@/components/q-select/doc/doc.md"),
+      },
     ],
   },
 ];
