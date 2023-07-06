@@ -8,6 +8,9 @@ import router from "./router";
 import hljs from "highlight.js";
 import "highlight.js/styles/color-brewer.css";
 
+
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 // 引入指令
 import ClickOutside from "./directives/clickoutside";
 const app = createApp(App);
@@ -20,4 +23,6 @@ app.directive("highlight", function (el) {
 });
 app.directive('click-outside', ClickOutside)
 
-app.use(router).use(QyxUI).mount("#app");
+
+
+app.use(router).use(QyxUI).use(ElementPlus).mount("#app");
